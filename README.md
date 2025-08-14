@@ -39,17 +39,6 @@
 
 **Technical Challenge** - A Flutter application implementing a secure login system with home screen navigation.
 
-### 🎯 Challenge Requirements
-
-This project was developed as a technical interview challenge, showcasing:
-
-- ✅ **Login Screen** - User authentication interface with form validation
-- ✅ **Home Screen** - Protected route after successful authentication
-- ✅ **Navigation Flow** - Secure routing from login to home
-- ✅ **Clean Architecture** - Separation of concerns and scalable code structure
-- ✅ **State Management** - BLoC pattern for reactive UI updates
-- ✅ **Best Practices** - Error handling, input validation, and user feedback
-
 ## 🎬 App Demo - Login Flow
 
 <div align="center">
@@ -65,53 +54,6 @@ This project was developed as a technical interview challenge, showcasing:
 **[📹 interview_video_screen.mov](./interview_video_screen.mov)** - Complete login flow demonstration
 
 </div>
-
----
-
-## 🚀 Getting Started
-
-To get a local copy up and running, follow these simple steps.
-
-### 📋 Prerequisites
-
-* **Flutter SDK:** Make sure you have the Flutter SDK installed. For more information, see the [Flutter documentation](https://flutter.dev/docs/get-started/install).
-
-### 🔧 Installation
-
-1. **Clone the repository**
-   ```sh
-   git clone https://github.com/douglasalipio/interview_process.git
-   ```
-2. **Install dependencies**
-   ```sh
-   flutter pub get
-   ```
-3. **Run the application**
-   ```sh
-   flutter run
-   ```
-
-## 📁 Folder Structure
-
-The project follows a standard Flutter project structure:
-
-```
-📦 interview
- ┣ 📂 lib/
- ┃ ┣ 📄 main.dart - App entry point with routing setup
- ┃ ┣ 📂 data/ 
- ┃ ┃ ┗ 📂 repositories/ - Authentication repository implementation
- ┃ ┣ 📂 domain/
- ┃ ┃ ┣ 📂 entities/ - User entity
- ┃ ┃ ┗ 📂 usecases/ - Login use case
- ┃ ┗ 📂 presentation/
- ┃   ┣ 📂 pages/
- ┃   ┃ ┣ 📄 login_page.dart - Login screen UI
- ┃   ┃ ┗ 📄 home_page.dart - Home screen after login
- ┃   ┗ 📂 cubits/ - Login state management
- ┣ 📂 test/ - Unit and widget tests for login flow
- ┗ 📂 [platform folders] - Platform-specific configurations
-```
 
 ## 📦 Dependencies
 
@@ -140,12 +82,6 @@ This project uses **BLoC (Business Logic Component)** pattern with `flutter_bloc
 - ⏳ **LoginLoading** - Processing authentication
 - ✅ **LoginSuccess** - Successful authentication, navigate to Home
 - ❌ **LoginFailure** - Authentication failed, show error message
-
-### Benefits:
-- ✅ **Separation of Concerns** - UI separated from business logic
-- ✅ **Testability** - Easy to test business logic independently
-- ✅ **Scalability** - Maintainable and extensible codebase
-- ✅ **Reactive** - Stream-based architecture for real-time updates
 
 ## 🧪 Testing
 
