@@ -18,16 +18,15 @@
 
 🎓 Holds a **Postgraduate Diploma in Computer Science**
 
-🏢 **Professional Journey:**
+ **Professional Journey:**
 **Nubank** - Building financial solutions for millions
 **iFood** - Revolutionizing food delivery experience
 **Samsung** - Creating innovative mobile experiences
 **International Startups** - Delivering robust, high-impact products
-
-💡 **Passionate about:**
-- ✨ Clean code and architecture
-- 🛠️ Building products from scratch
-- 🚀 Scalable solutions
+ **Passionate about:**
+- Clean code and architecture
+- Building products from scratch
+- Scalable solutions
 
 🔭 **Currently:** Developing a micro-services SaaS using Open Finance to empower financial intelligence and passive income
 
